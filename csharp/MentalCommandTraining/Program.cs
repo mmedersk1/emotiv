@@ -51,6 +51,11 @@ namespace MentalCommandTraining
                 p.SubcribeData("sys");
                 Thread.Sleep(5000);
             }
+
+            // Query Profile
+            p.QuerryProfiles();
+            Thread.Sleep(5000);
+
             // get Detection Information
             //p.QuerryDetectionInfo("mentalCommand");
             //Thread.Sleep(2000); //wait for get detection information
@@ -88,8 +93,8 @@ namespace MentalCommandTraining
             Thread.Sleep(3000);
 
             // Upload profile
-            //p.UploadProfile();
-            //Thread.Sleep(3000);
+            p.UploadProfile();
+            Thread.Sleep(3000);
 
             // Subcribe com event -> show training result
             p.SubcribeData("com");

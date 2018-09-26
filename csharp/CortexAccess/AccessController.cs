@@ -109,15 +109,14 @@ namespace CortexAccess
         public void Authorize(string licenseID, int debitNumber)
         {
             JObject param = new JObject();
+            param.Add("client_id", ClientId);
+            param.Add("client_secret", ClientSecret);
             if (String.IsNullOrEmpty(licenseID))
             {
                 param.Add("debit", 0);
-
             }
             else
             {
-                param.Add("client_id", ClientId);
-                param.Add("client_secret", ClientSecret);
                 param.Add("license", licenseID);
                 param.Add("debit", debitNumber);
             }

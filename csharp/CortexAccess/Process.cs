@@ -526,21 +526,16 @@ namespace CortexAccess
 
         private void QuerryHeadsetReceived(object sender, List<Headset> headsets)
         {
-            Console.WriteLine("Querry Headset successfully");
-
-            // Create a Session when have new update of headset connection
-            //if (string.IsNullOrEmpty(GetAccessToken()))
-            //    return;
-            //if (!SessionCtr.IsCreateSession)
-            //    CreateSession();
+            if(headsets.Count == 0)
+            {
+                Console.WriteLine("No headset connected.");
+            }
         }
 
         private void AuthorizeOK(object sender, string token)
         {
             Console.WriteLine("Authorize successfully!!!. Access Token " + token);
 
-            // Query Profile
-            QuerryProfiles();
         }
         private void LoginOK(object sender, bool isLogin)
         {
