@@ -389,14 +389,14 @@ namespace CortexAccess
                     case (int)TrainingReqType.QUERY_PROFILE_LIST:
                         Console.WriteLine("Querry Profile Successfully");
                         JArray jProfileArr = (JArray)result;
-                        List<string> profileLists = new List<string>();
+                        List<string> profileNameLists = new List<string>();
                         foreach (var item in jProfileArr)
                         {
-                            profileLists.Add((string)item);
+                            profileNameLists.Add((string)item["name"]);
                         }
-                        if(profileLists.Count > 0)
+                        if(profileNameLists.Count > 0)
                         {
-                            ProfileLists = profileLists.ToList();
+                            ProfileLists = profileNameLists.ToList();
 
                         }
                         else

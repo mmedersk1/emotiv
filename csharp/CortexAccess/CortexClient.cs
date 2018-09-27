@@ -171,8 +171,15 @@ namespace CortexAccess
             if(response["warning"] != null)
             {
                 JObject warning = (JObject)response["warning"];
-                string messageWarning = (string)warning["message"];
+                string messageWarning = "";
                 int code = -1;
+                if (warning["message"].Type == JTokenType.String)
+                {
+                    messageWarning = warning["message"].ToString();
+                }else if(warning["message"].Type == JTokenType.Object)
+                {
+                    Console.WriteLine("Received Warning Object");
+                }
                 if(warning["code"] != null)
                     code = (int)warning["code"];
 

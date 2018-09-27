@@ -47,6 +47,9 @@ namespace FacialExpressionTraining
                 p.SubcribeData("sys");
                 Thread.Sleep(5000);
             }
+            // Query Profile
+            p.QuerryProfiles();
+            Thread.Sleep(5000);
 
             // get Detection Information
             //p.QuerryDetectionInfo("facialExpression");
