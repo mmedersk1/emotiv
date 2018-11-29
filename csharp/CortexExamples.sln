@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEGLogger", "EEGLogger\EEGLogger.csproj", "{EF98366A-15F8-47AF-80F9-A2A11CAA7257}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacialExpressionTraining", "FacialExpressionTraining\FacialExpressionTraining.csproj", "{78CCA0D9-6C66-4F02-91A2-8ECB23CDB867}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InjectMarkers", "InjectMarker\InjectMarkers.csproj", "{A4DF4C6B-90B8-4FC2-BAB7-856B3567CA98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUITest", "GUITest\GUITest.csproj", "{FD975FAA-6491-419E-80B7-4A31B627651F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,8 +83,19 @@ Global
 		{A4DF4C6B-90B8-4FC2-BAB7-856B3567CA98}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
 		{A4DF4C6B-90B8-4FC2-BAB7-856B3567CA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4DF4C6B-90B8-4FC2-BAB7-856B3567CA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD975FAA-6491-419E-80B7-4A31B627651F}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD975FAA-6491-419E-80B7-4A31B627651F}.Debug_Ubuntu|Any CPU.Build.0 = Debug|Any CPU
+		{FD975FAA-6491-419E-80B7-4A31B627651F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD975FAA-6491-419E-80B7-4A31B627651F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD975FAA-6491-419E-80B7-4A31B627651F}.Release_Ubuntu|Any CPU.ActiveCfg = Release|Any CPU
+		{FD975FAA-6491-419E-80B7-4A31B627651F}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
+		{FD975FAA-6491-419E-80B7-4A31B627651F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD975FAA-6491-419E-80B7-4A31B627651F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B633D067-8D51-402D-9CA6-47F661245391}
 	EndGlobalSection
 EndGlobal

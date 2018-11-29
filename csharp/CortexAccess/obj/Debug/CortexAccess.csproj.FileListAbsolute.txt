@@ -1,0 +1,14 @@
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\CortexAccess.dll.config
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\CortexAccess.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\CortexAccess.pdb
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\nunit.framework.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\WebSocket4Net.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\bin\Debug\nunit.framework.xml
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\obj\Debug\CortexAccess.csprojAssemblyReference.cache
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\obj\Debug\CortexAccess.csproj.CoreCompileInputs.cache
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\obj\Debug\CortexAccess.csproj.CopyComplete
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\obj\Debug\CortexAccess.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\CortexAccess\obj\Debug\CortexAccess.pdb

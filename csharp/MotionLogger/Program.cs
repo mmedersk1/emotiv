@@ -10,7 +10,7 @@ using System.IO;
 
 namespace MotionLogger
 {
-    class Program
+    public class Program
     {
         const string Username = "your_username";
         const string Password = "your_password";
@@ -95,10 +95,39 @@ namespace MotionLogger
             if (OutFileStream != null)
                 OutFileStream.Write(lastVal, 0, lastVal.Length);
         }
-
+        private string state = ""; //state string defines weather the head was turnt left or right
         private static void OnMotionDataReceived(object sender, ArrayList motionData)
         {
-            WriteDataToFile(motionData);
+            if (motionData[1].ToString() != "GYROX")
+            {
+                Program x = new Program();
+                x.state = headRotation(Int32.Parse(motionData[1].ToString())); 
+            }
+            
+            //WriteDataToFile(motionData);
+        }
+        // set state string according to GYRO X value
+        private static string headRotation(int a) {
+            switch (a)
+            {
+                case var expression when a < 7000:
+                    return "L";
+                case var expression when a > 9000:
+                    return "R";
+                default:
+                    break;
+            }
+            return "";
+        }
+
+        public string getHeadRotation()
+        {
+            return state;
+        }
+
+        public static int Add2(int a, int b) {
+            int x = a + b;
+            return x;
         }
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\MotionLogger.exe.config
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\MotionLogger.exe
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\MotionLogger.pdb
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\CortexAccess.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\WebSocket4Net.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\nunit.framework.dll
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\CortexAccess.pdb
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\CortexAccess.dll.config
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\bin\Debug\nunit.framework.xml
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\obj\Debug\MotionLogger.csprojAssemblyReference.cache
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\obj\Debug\MotionLogger.csproj.CoreCompileInputs.cache
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\obj\Debug\MotionLogger.csproj.CopyComplete
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\obj\Debug\MotionLogger.exe
+C:\Users\mikol\Desktop\EmotivTesting\cortex-example\csharp\MotionLogger\obj\Debug\MotionLogger.pdb
